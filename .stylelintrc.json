@@ -2,5 +2,11 @@
   "extends": [
     "stylelint-config-standard",
     "stylelint-config-prettier"
-  ]
+  ],
+  "rules": {
+    "property-no-vendor-prefix": null,
+    "value-keyword-case": null,
+    "value-no-vendor-prefix": null,
+    "font-family-name-quotes": null
+  }
 }
