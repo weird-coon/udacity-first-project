@@ -1,0 +1,25 @@
+{
+  "name": "udacity",
+  "version": "1.0.0",
+  "description": "Personal blog website template",
+  "main": "index.js",
+  "dependencies": {
+    "stylelint": "^14.8.3",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-config-prettier": "^9.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "stylelint": "stylelint-config-prettier-check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weird-coon/udacity-first-project.git"
+  },
+  "author": "Quyen Luu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weird-coon/udacity-first-project/issues"
+  },
+  "homepage": "https://github.com/weird-coon/udacity-first-project#readme"
+}
