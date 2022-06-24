@@ -2,21 +2,21 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Udacity personal blog template</title>
-  <link rel="icon" href="./assets/img/favicon.ico">
+  <link rel="icon" href="./assets/img/favicon.ico" />
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="./assets/css/normalize.css">
-  <link rel="stylesheet" href="./assets/css/helpers.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/normalize.css" />
+  <link rel="stylesheet" href="./assets/css/helpers.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
   <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap" rel="stylesheet" />
 </head>
 
 <body>
@@ -30,7 +30,12 @@
           <li><a href="/">Category</a></li>
           <li><a href="/">About me</a></li>
         </ul>
-        <button class="search-button">Search</button>
+        <div class="page-header__action">
+          <button class="search-button">Search</button>
+          <a href="/" class="menu-icon d-md-none">
+            <img src="./assets/img/icons/menu.svg" alt="" />
+          </a>
+        </div>
       </nav>
     </header>
 
@@ -42,118 +47,140 @@
 
       <div class="grid-wrap">
         <div class="grid-column">
-          <article class="article-item">
-            <a class="article-img-wrap" href="/">
+          <article class="article">
+            <a class="article-wrap" href="/">
               <div class="article-img">
-                <img src="./assets/img/buiding.jpg">
+                <img src="./assets/img/buiding.jpg" />
               </div>
             </a>
-            <div class="article-item__content">
+            <div class="article-content">
               <a href="./pages/category.html" class="article-category">Technology</a>
               <a href="./pages/blog.html" class="article-title">
                 <h3>Understanding Ethereum Token Standards</h3>
               </a>
-              <p class="article-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit
-                fringilla enim, ut scelerisque dui. In hac habitasse platea dictumst. Etiam malesuada varius purus, ut
-                consectetur dolor cursus quis. Vestibulum quis purus viverra, lobortis sapien quis, fringilla eros.
-                Integer justo eros, sollicitudin vitae varius mattis,…
+              <p class="article-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Quisque hendrerit fringilla enim, ut scelerisque dui. In hac
+                habitasse platea dictumst. Etiam malesuada varius purus, ut
+                consectetur dolor cursus quis. Vestibulum quis purus viverra,
+                lobortis sapien quis, fringilla eros. Integer justo eros,
+                sollicitudin vitae varius mattis,…
               </p>
             </div>
           </article>
 
-          <article class="article-item">
-            <a class="article-img-wrap" href="/">
+          <article class="article">
+            <a class="article-wrap" href="/">
               <div class="article-img article-img--square">
-                <img src="./assets/img/foods.jpg">
+                <img src="./assets/img/foods.jpg" />
               </div>
             </a>
-            <div class="article-item__content">
+            <div class="article-content">
               <a href="./pages/category.html" class="article-category">Cooking, Foods</a>
               <a href="./pages/blog.html" class="article-title">
-                <h3> Heartwarming Dishes That Will Lighten Up Your Day & Night</h3>
+                <h3>
+                  Heartwarming Dishes That Will Lighten Up Your Day & Night
+                </h3>
               </a>
               <p class="article-description">
-                In hac habitasse platea dictumst. Etiam malesuada varius purus, understanding
-                Ethereum Token Standards, ut consectetur dolor cursus quis. Sollicitudin vitae varius mattis,…
+                In hac habitasse platea dictumst. Etiam malesuada varius
+                purus, understanding Ethereum Token Standards, ut consectetur
+                dolor cursus quis. Sollicitudin vitae varius mattis,…
               </p>
             </div>
           </article>
         </div>
 
         <div class="grid-column">
-          <article class="article-item">
-            <a class="article-img-wrap" href="/">
+          <article class="article">
+            <a class="article-wrap" href="/">
               <div class="article-img article-img--square">
-                <img src="./assets/img/foods2.jpg">
+                <img src="./assets/img/foods2.jpg" />
               </div>
             </a>
-            <div class="article-item__content">
+            <div class="article-content">
               <a href="./pages/category.html" class="article-category">Cooking, Foods</a>
               <a href="./pages/blog.html" class="article-title">
-                <h3> Heartwarming Dishes That Will Lighten Up Your Day & Night</h3>
+                <h3>
+                  Heartwarming Dishes That Will Lighten Up Your Day & Night
+                </h3>
               </a>
               <p class="article-description">
-                In hac habitasse platea dictumst. Etiam malesuada varius purus, understanding
-                Ethereum Token Standards, ut consectetur dolor cursus quis. Sollicitudin vitae varius mattis,…
+                In hac habitasse platea dictumst. Etiam malesuada varius
+                purus, understanding Ethereum Token Standards, ut consectetur
+                dolor cursus quis. Sollicitudin vitae varius mattis,…
               </p>
             </div>
           </article>
 
-          <article class="article-item">
-            <a class="article-img-wrap" href="/">
+          <article class="article">
+            <a class="article-wrap" href="/">
               <div class="article-img">
-                <img src="./assets/img/party.jpg">
+                <img src="./assets/img/party.jpg" />
               </div>
             </a>
-            <div class="article-item__content">
+            <div class="article-content">
               <a href="./pages/category.html" class="article-category">Entertainment</a>
               <a href="./pages/blog.html" class="article-title">
-                <h3>The Wild Bunch & American Graffiti Actor Bo Hopkins Has Passed Away At 80</h3>
+                <h3>
+                  The Wild Bunch & American Graffiti Actor Bo Hopkins Has
+                  Passed Away At 80
+                </h3>
               </a>
-              <p class="article-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit
-                fringilla enim, ut scelerisque dui. Understanding Ethereum Token Standards. In hac habitasse platea
-                dictumst. Etiam malesuada varius purus, ut
-                consectetur dolor cursus quis. Sollicitudin vitae varius mattis,…
+              <p class="article-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Quisque hendrerit fringilla enim, ut scelerisque dui.
+                Understanding Ethereum Token Standards. In hac habitasse
+                platea dictumst. Etiam malesuada varius purus, ut consectetur
+                dolor cursus quis. Sollicitudin vitae varius mattis,…
               </p>
             </div>
           </article>
         </div>
 
         <div class="grid-column">
-          <article class="article-item">
-            <a class="article-img-wrap" href="/">
+          <article class="article">
+            <a class="article-wrap" href="/">
               <div class="article-img">
-                <img src="./assets/img/laptop.jpg">
+                <img src="./assets/img/laptop.jpg" />
               </div>
             </a>
-            <div class="article-item__content">
+            <div class="article-content">
               <a href="./pages/category.html" class="article-category">Entertainment</a>
               <a href="./pages/blog.html" class="article-title">
-                <h3>The Wild Bunch & American Graffiti Actor Bo Hopkins Has Passed Away At 80</h3>
+                <h3>
+                  The Wild Bunch & American Graffiti Actor Bo Hopkins Has
+                  Passed Away At 80
+                </h3>
               </a>
-              <p class="article-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit
-                fringilla enim, ut scelerisque dui. Understanding Ethereum Token Standards. In hac habitasse platea
-                dictumst. Etiam malesuada varius purus, ut
-                consectetur dolor cursus quis. Sollicitudin vitae varius mattis,…
+              <p class="article-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Quisque hendrerit fringilla enim, ut scelerisque dui.
+                Understanding Ethereum Token Standards. In hac habitasse
+                platea dictumst. Etiam malesuada varius purus, ut consectetur
+                dolor cursus quis. Sollicitudin vitae varius mattis,…
               </p>
             </div>
           </article>
 
-          <article class="article-item">
-            <a class="article-img-wrap" href="/">
+          <article class="article">
+            <a class="article-wrap" href="/">
               <div class="article-img">
-                <img src="./assets/img/fashion.jpg">
+                <img src="./assets/img/fashion.jpg" />
               </div>
             </a>
-            <div class="article-item__content">
+            <div class="article-content">
               <a href="./pages/category.html" class="article-category">Technology</a>
               <a href="./pages/blog.html" class="article-title">
                 <h3>Understanding Ethereum Token Standards</h3>
               </a>
-              <p class="article-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit
-                fringilla enim, ut scelerisque dui. In hac habitasse platea dictumst. Etiam malesuada varius purus, ut
-                consectetur dolor cursus quis. Vestibulum quis purus viverra, lobortis sapien quis, fringilla eros.
-                Integer justo eros, sollicitudin vitae varius mattis,…
+              <p class="article-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Quisque hendrerit fringilla enim, ut scelerisque dui. In hac
+                habitasse platea dictumst. Etiam malesuada varius purus, ut
+                consectetur dolor cursus quis. Vestibulum quis purus viverra,
+                lobortis sapien quis, fringilla eros. Integer justo eros,
+                sollicitudin vitae varius mattis,…
               </p>
             </div>
           </article>
@@ -169,7 +196,10 @@
 
     <footer class="page-footer d-flex px-4 px-md-5 py-0 py-md-4">
       <small class="mb-3 mb-sm-0">© Copyright
-        <script>document.write(new Date().getFullYear())</script>. All rights reserved.
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        . All rights reserved.
       </small>
       <ul class="d-flex ps-0 mb-0 my-md-0">
         <li>
