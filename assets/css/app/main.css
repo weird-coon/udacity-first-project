@@ -29,7 +29,7 @@
   font-size: 3rem;
   display: inline-block;
   color: var(--color-text-base);
-  font-family: 'Cinzel', serif;
+  font-family: "Merriweather", serif;
   line-height: 1;
   user-select: none;
   background-repeat: no-repeat;
@@ -41,7 +41,7 @@
 
 /* ARTICLE ITEM
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.article-img-wrap {
+.article-wrap {
   display: block;
   margin-bottom: 12px;
 }
@@ -54,7 +54,7 @@
 
 .article-img::before {
   display: block;
-  content: '';
+  content: "";
   width: 100%;
   padding-top: calc((2 / 3) * 100%);
 }
@@ -64,9 +64,9 @@
 }
 
 .article-img::after {
-  content: '';
+  content: "";
   opacity: 0;
-  transition: .5s opacity ease-in-out;
+  transition: 0.5s opacity ease-in-out;
   background: linear-gradient(rgba(47, 47, 47, 0.1), rgba(47, 47, 47, 0.3));
   position: absolute;
   top: 0;
@@ -79,7 +79,7 @@
   opacity: 1;
 }
 
-.article-img>img {
+.article-img > img {
   width: 100%;
   position: absolute;
   top: 0;
@@ -91,7 +91,7 @@
   transition: transform 0.3s;
 }
 
-.article-img:hover>img {
+.article-img:hover > img {
   transform: scale(1.1);
 }
 
@@ -110,7 +110,7 @@
 }
 
 .article-title:hover {
-  color: var(--color-text-secondary)
+  color: var(--color-text-secondary);
 }
 
 .article-title h3 {
@@ -165,7 +165,6 @@
   font-size: 12px;
   letter-spacing: 0.5px;
 }
-
 
 /* RESPONSIVE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

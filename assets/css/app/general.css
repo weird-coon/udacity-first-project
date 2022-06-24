@@ -1,7 +1,8 @@
 /* GLOBAL STYLESHEET
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root {
-  --base-font-family: -apple-system, BlinkMacSystemFont, San Francisco, Helvetica Neue, Helvetica, Ubuntu, Roboto, Noto, Segoe UI, Arial, sans-serif;
+  --base-font-family: -apple-system, BlinkMacSystemFont, San Francisco,
+    Helvetica Neue, Helvetica, Ubuntu, Roboto, Noto, Segoe UI, Arial, sans-serif;
   --base-font-size: 16px;
 
   /* App color palette */
@@ -24,7 +25,7 @@ body {
 
 a {
   color: var(--color-link);
-  transition: color .1s ease-in-out;
+  transition: color 0.1s ease-in-out;
 }
 
 a:hover {
