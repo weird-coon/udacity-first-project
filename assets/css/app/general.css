@@ -11,6 +11,7 @@
   --color-border-base: #d1d1d1;
   --color-border-active: #767676;
   --color-link: #767676;
+  --color-link-blue: #02b3e4;
   --color-active-link: #111;
   --color-white: #fff;
   --color-brown: #d79c6a;
@@ -32,6 +33,19 @@ a:hover {
   color: var(--color-active-link);
 }
 
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--base-font-family);
+  line-height: 1.1;
+}
+
 article {
   margin: 0;
+}
+
+img {
+  width: 100%;
 }
