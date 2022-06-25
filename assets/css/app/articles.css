@@ -29,7 +29,7 @@
   font-size: 3rem;
   display: inline-block;
   color: var(--color-text-base);
-  font-family: "Merriweather", serif;
+  font-family: var(--base-font-serif);
   line-height: 1;
   user-select: none;
   background-repeat: no-repeat;
