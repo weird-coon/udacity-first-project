@@ -124,6 +124,17 @@ blockquote span {
   margin-top: 12px;
 }
 
+figure {
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  text-align: center;
+}
+
 /* RESPONSIVE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media screen and (min-width: 768px) {
