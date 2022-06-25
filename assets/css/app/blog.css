@@ -3,6 +3,7 @@
 .main-content--post {
   max-width: 960px;
   margin-top: 16px;
+  padding-bottom: 24px;
 }
 
 .post-img {
@@ -52,7 +53,7 @@
 }
 
 .divider {
-  margin: 0 8px;
+  margin: 0 4px;
 }
 
 .post-author__profile img {
