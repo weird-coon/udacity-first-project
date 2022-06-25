@@ -33,7 +33,7 @@
 .post-title h1 {
   font-size: 2rem;
   color: var(--color-text-base);
-  font-family: "Merriweather", serif;
+  font-family: var(--base-font-serif);
   line-height: 110%;
   margin: 16px 0;
 }
@@ -87,6 +87,43 @@
   color: var(--color-link-blue);
 }
 
+blockquote {
+  font-size: 20px;
+  width: 100%;
+  margin: 24px auto;
+  font-family: var(--base-font-serif);
+  font-style: italic;
+  color: var(--color-text-base);
+  padding: 40px 32px 32px 56px;
+  border-left: 6px solid var(--color-brown);
+  line-height: 1.6;
+  position: relative;
+  background: var(--color-bg-light);
+  box-sizing: border-box;
+}
+
+blockquote::before {
+  content: "\201C";
+  color: var(--color-border-active);
+  font-size: 32px;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+
+blockquote::after {
+  content: "";
+}
+
+blockquote span {
+  display: block;
+  font-family: var(--base-font-family);
+  color: var(--color-text-secondary);
+  font-size: 15px;
+  font-style: normal;
+  margin-top: 12px;
+}
+
 /* RESPONSIVE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media screen and (min-width: 768px) {
@@ -101,5 +138,9 @@
 
   .post-img::before {
     padding-top: calc((2.1 / 6) * 100%);
+  }
+
+  blockquote {
+    width: 60%;
   }
 }

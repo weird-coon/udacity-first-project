@@ -23,7 +23,7 @@
 }
 
 .page-header .logo {
-  font-family: "Merriweather", serif;
+  font-family: var(--base-font-serif);
   user-select: none;
   color: var(--color-text-base);
   text-decoration: none;
