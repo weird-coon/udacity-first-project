@@ -95,6 +95,30 @@
   margin-right: 20px;
 }
 
+.back-home-btn {
+  background: url("../../img/icons/home.png") no-repeat center
+    var(--color-white);
+  background-size: 24px;
+  border-radius: 50%;
+  border: 1px solid var(--color-border-base);
+  box-sizing: border-box;
+  display: flex;
+  max-width: 34px;
+  padding: 20px;
+  text-decoration: none;
+  transition: box-shadow 150ms;
+  position: sticky;
+  bottom: 36px;
+  right: 20px;
+  margin-left: auto;
+  margin-bottom: 16px;
+}
+
+.back-home-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
+  border: 1px solid var(--color-border-active);
+}
+
 /* FOOTER SCREEN SIZE SM+
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media screen and (min-width: 576px) {
@@ -102,5 +126,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .back-home-btn {
+    right: 36px;
   }
 }
