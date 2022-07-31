@@ -25,3 +25,6 @@ Before moving forward, make sure you are comfortable with the content from the C
 This project just HTML & CSS basic so just direct open html file on your browers or start with <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target='_blank'>live server</a>
 
 Happy coding! 😊
+
+#GET_PASSES_THIS_REPO_UDACITY_PLEASE
+
